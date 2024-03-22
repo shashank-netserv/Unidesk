@@ -1,15 +1,15 @@
 <?php include('header.php');?>
 
 <section class="contact-banner d-flex text-center align-items mt-80">
-  <div class="container" data-aos="fade-up">
-    <h1 class="cinzel fs72 fw400 text-white line-height">Blog</h1>
+  <div class="container">
+    <h1 class="cinzel fs72 fw400 text-white line-height wow animate__animated animate__fadeInUp">Blog</h1>
   </div>
 </section>
 
 <section class="mt1000 contact-page" style="margin-top:80px;">
  <div class="container">
       <div class="row justify-content-center mb40">
-           <div class="col-md-5">
+           <div class="col-md-5 wow animate__animated animate__fadeInUp">
            <a href="#" class="text-decoration text-black"> 
             <div class="blog-listing mb40">
                 <img src="images/blog2.png" class="img-responsive height255 object-fit">
@@ -21,7 +21,7 @@
             </div>
            </div>
 
-           <div class="col-md-5">
+           <div class="col-md-5 wow animate__animated animate__fadeInUp">
             <a href="#" class="text-decoration text-black"> 
             <div class="blog-listing mb40">
              <img src="images/blog2.png" class="img-responsive height255 object-fit">
@@ -32,10 +32,7 @@
               </div>
              </a>
             </div>
-           </div>
-
-
-           
+           </div>       
       </div>
 </div>
 </section>

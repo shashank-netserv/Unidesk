@@ -4,22 +4,22 @@
 <section class="mt100 contact-page">
  <div class="container">
  <div class="w800">
-  <h3 class="fs52 cinzel fw400 mb20">Exploring the Frontier:  <span class="text-clr fw500">Generative AI </span> in Higher Education</h3>
-  <img src="images/ai.svg" width="100%"; height="500px"; class="blog-img" />
+  <h3 class="fs52 cinzel fw400 mb20 wow animate__animated animate__fadeInUp">Exploring the Frontier:  <span class="text-clr fw500">Generative AI </span> in Higher Education</h3>
+  <img src="images/ai.svg" width="100%"; height="500px"; class="blog-img wow animate__animated animate__fadeInUp" />
 
-  <p class="mt-4 fs18">In recent years, integrating artificial intelligence (AI) technologies has transformed various
+  <p class="mt-4 fs18 wow animate__animated animate__fadeInUp">In recent years, integrating artificial intelligence (AI) technologies has transformed various
      industries, and higher education is no exception. Among the latest advancements, generative AI
      is a powerful tool with immense potential to revolutionize the higher education sector’s teaching,
      learning, research, and administrative processes. This blog delves into generative AI’s
      applications, benefits, and future implications in higher education.</p>
 
-    <p class="cinzel fs30 mt-4"><b>Understanding Generative AI</b></p>
-    <p class="mt-3 fs18">Generative AI, a subset of artificial intelligence, refers to algorithms and models capable of
+    <p class="cinzel fs30 mt-4 wow animate__animated animate__fadeInUp"><b>Understanding Generative AI</b></p>
+    <p class="mt-3 fs18 wow animate__animated animate__fadeInUp">Generative AI, a subset of artificial intelligence, refers to algorithms and models capable of
       generating new content, such as text, images, audio, and video, based on patterns and data inputs
       provided during training. Unlike traditional AI systems, which rely on predefined rules,
       generative AI exhibits creativity and autonomy in producing novel outputs.</p>
-      <p class="cinzel fs30 mt-4"><b>Applications of Generative AI in Higher Education</b></p>
-      <ol class="mt-4 blog-font">
+      <p class="cinzel fs30 mt-4 wow animate__animated animate__fadeInUp"><b>Applications of Generative AI in Higher Education</b></p>
+      <ol class="mt-4 blog-font wow animate__animated animate__fadeInUp">
         <li><b>Content Generation:</b> Generative AI models can create academic papers, essays, lecture
              notes, and study materials based on existing data and parameters. This capability
              streamlines content creation processes for educators and enhances the availability of
@@ -43,9 +43,9 @@
                can leverage AI-generated insights to drive innovation and discovery across diverse
                disciplines.</li>             
       </ol>
-      <p class="cinzel fs30 mt-4"><b>Benefits of Generative AI Adoption</b></p>
+      <p class="cinzel fs30 mt-4 wow animate__animated animate__fadeInUp"><b>Benefits of Generative AI Adoption</b></p>
 
-      <ol class="mt-4 blog-font">
+      <ol class="mt-4 blog-font wow animate__animated animate__fadeInUp">
         <li><b>Enhanced Efficiency: </b>Generative AI automates repetitive tasks, freeing time for educators
          and administrators to focus on high-value activities such as curriculum development, student mentoring, and strategic planning.
          </li>
@@ -68,15 +68,15 @@
             approaches.</li>             
       </ol>
 
-      <p class="cinzel fs30 mt-4"><b>Challenges and Considerations</b></p>
+      <p class="cinzel fs30 mt-4 wow animate__animated animate__fadeInUp"><b>Challenges and Considerations</b></p>
 
-      <p class="mt-3 fs18">Despite its transformative potential, the adoption of generative AI in higher education poses
+      <p class="mt-3 fs18 wow animate__animated animate__fadeInUp">Despite its transformative potential, the adoption of generative AI in higher education poses
       several challenges and considerations, including ethical implications, data privacy concerns,
       algorithmic biases, and robust validation and verification mechanisms. Additionally, ensuring
       proper training, integration, and ongoing monitoring of AI systems is essential to maximize their
       effectiveness and mitigate risks.</p>
 
-      <p class="mt-3 fs18">Generative AI represents a paradigm shift in the higher education landscape, offering
+      <p class="mt-3 fs18 wow animate__animated animate__fadeInUp">Generative AI represents a paradigm shift in the higher education landscape, offering
       unprecedented opportunities to reimagine teaching, learning, research, and administrative
       processes. By harnessing AI&#39;s creative capabilities, educators and institutions can enhance
       student engagement, promote personalized learning experiences, accelerate research endeavors,

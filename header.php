@@ -7,19 +7,15 @@
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
     <style>
 
-
-
 @media only screen and (min-width: 320px) and (max-width: 768px){
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-
 
   .sidenav {
   height: 100%;
@@ -46,7 +42,6 @@
 .sidenav a:hover {
   color: #f1f1f1;
 }
-
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -54,7 +49,6 @@
   font-size: 36px;
   margin-left: 50px;
 }
-
 #main {
   transition: margin-left .5s;
   padding: 16px;
@@ -62,7 +56,6 @@
 nav .d-flex{
 display:block !important;
 }
-
 }
 </style>
 </head>
@@ -96,8 +89,6 @@ display:block !important;
         <li class="nav-item">
           <a class="nav-link" href="career.php">Career</a>
         </li>
-
-
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="career.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Career

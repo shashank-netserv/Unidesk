@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
 
 <section class="contact-banner d-flex text-center align-items mt-80">
-  <div class="container" data-aos="fade-up">
-    <h1 class="cinzel fs72 fw400 text-white line-height">Contact Us</h1>
+  <div class="container">
+    <h1 class="cinzel fs72 fw400 text-white line-height wow animate__animated animate__fadeInUp">Contact Us</h1>
   </div>
 </section>
 
@@ -16,8 +16,8 @@
 
           <div class="col-md-4">
         <div class="Contact-left">
-            <h4 data-aos="fade-up" class="cinzel mb40 fs30">Get in touch</h4> 
-           <ul data-aos="fade-up">
+            <h4 class="cinzel mb40 fs30 wow animate__animated animate__fadeInUp">Get in touch</h4> 
+           <ul class="wow animate__animated animate__fadeInUp">
               <li class="cinzel clr333 fs24">
                 <i class="fa fa-map-marker" aria-hidden="true"></i> Address
                 <div class="left-text">
@@ -46,8 +46,8 @@
 
             <div class="col-md-8">
                     <div class="Contact-right">
-                        <h4 data-aos="fade-up" class="cinzel mb40 fs30">How can we help you?</h4>
-                        <form id="contactForm" data-aos="fade-up">
+                        <h4 class="cinzel mb40 fs30 wow animate__animated animate__fadeInUp">How can we help you?</h4>
+                        <form id="contactForm" class="wow animate__animated animate__fadeInUp">
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-md-6">

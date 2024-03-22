@@ -2,8 +2,8 @@
 <?php include('header.php'); ?>
 
 <section class="home-banner d-flex text-center align-items mt-80 h300">
-  <div class="container" data-aos="fade-up">
-    <h1 class="cinzel fs72 fw400 text-white line-height">About Us</h1>
+  <div class="container">
+    <h1 class="cinzel fs72 fw400 text-white line-height wow animate__animated animate__fadeInUp">About Us</h1>
   </div>
 </section>
 
@@ -11,9 +11,9 @@
     <div class="container">
         <div class="row align-items">
 
-            <div class="col-md-7" data-aos="fade-right">
+            <div class="col-md-7">
                 <div class="ml">
-                <p class="fs24 fw300">
+                <p class="fs24 fw300 wow animate__animated animate__slideInLeft ">
                     In today’s technology-driven world, education faces a crucial challenge:   
                     bridging the gap between traditional pedagogy and the digital future.    
                     UniDesk Partners stands not just as an IT provider, but as your trusted   
@@ -22,8 +22,8 @@
              </div>
             </div>
 
-            <div class="col-md-5" data-aos="fade-left">
-                <img src="images/aboutus.png" class="img-responsive" />
+            <div class="col-md-5">
+                <img src="images/aboutus.png" class="img-responsive wow animate__animated animate__slideInRight " />
             </div>
         </div>
     </div>
@@ -31,10 +31,12 @@
 
 <section class="digital-divide mt100 bg-black ptb80">
     <div class="container">
-      <h3 class="fs52 cinzel fw400 mb20 text-white text-center pb25" data-aos="fade-up"><span class="text-clr fw500">VISION </span></h3>
+      <h3 class="fs52 cinzel fw400 mb20 text-white text-center pb25 wow animate__animated animate__fadeInUp">
+        <span class="text-clr fw500">VISION </span>
+      </h3>
        
       <div class="vision">
-        <p class="text-center text-white fs24">Our vision is to be the leading force in transforming education through
+        <p class="text-center text-white fs24 wow animate__animated animate__fadeInUp">Our vision is to be the leading force in transforming education through
            technology. We envision a future where seamless digital experiences
            empower educators, engage students, and propel institutions to the
            forefront of educational innovation.</p>
@@ -47,10 +49,10 @@
 
    <section class="mission mt100">
      <div class="container">
-       <h3 class="fs52 cinzel fw400 mb20 text-center pb25" data-aos="fade-up">MISSION</h3>
+       <h3 class="fs52 cinzel fw400 mb20 text-center pb25 wow animate__animated animate__fadeInUp">MISSION</h3>
         <div class="row align-items">
-            <div class="col-md-3" data-aos="fade-up">
-              <div class="box">
+            <div class="col-md-3">
+              <div class="box wow animate__animated animate__fadeInUp">
                 <img src="images/simplifying_technology.png">
                 <div class="digital-content">
                 <p class="digital-content-heading fs30">Simplifying Technology</p>
@@ -59,8 +61,8 @@
             </div>
             </div>
          
-         <div class="col-md-3" data-aos="fade-up">
-           <div class="box">
+         <div class="col-md-3">
+           <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/student_success.png">
               <div class="digital-content">
                 <p class="digital-content-heading fs30">Amplifying Student Success</p>
@@ -69,8 +71,8 @@
             </div>
             </div>
 
-            <div class="col-md-3" data-aos="fade-up">
-           <div class="box">
+            <div class="col-md-3">
+           <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/empowering.png">
               <div class="digital-content">
                 <p class="digital-content-heading fs30">Empowering Educators</p>
@@ -80,7 +82,7 @@
             </div>
 
 
-            <div class="col-md-3" data-aos="fade-up">
+            <div class="col-md-3 wow animate__animated animate__fadeInUp">
            <div class="box">
               <img src="images/optmize.png">
               <div class="digital-content">
@@ -89,8 +91,6 @@
               </div>
             </div>
             </div>
-             
-
          </div>
       </div>
    </section>
@@ -98,10 +98,10 @@
 
 <section class="digital-divide mt100 bg-ccc ptb80">
     <div class="container">
-    <h3 class="fs52 cinzel fw400 mb20 text-black text-center pb25" data-aos="fade-up">Leadership team</h3>
+    <h3 class="fs52 cinzel fw400 mb20 text-black text-center pb25 wow animate__animated animate__fadeInUp">Leadership team</h3>
         <div class="row align-items justify-content-center">
-            <div class="col-md-4" data-aos="fade-up">
-           <div class="box">
+            <div class="col-md-4">
+           <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/2.png" class="img-responsive">
               <div class="digital-content">
                 <p class="cinzel fs30">PRADEEP GUPTA</p>
@@ -110,8 +110,8 @@
             </div>
             </div>
 
-             <div class="col-md-4" data-aos="fade-up">
-              <div class="box">
+             <div class="col-md-4">
+              <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/3.png" class="img-responsive">
               <div class="digital-content">
                 <p class="cinzel fs30">PRADEEP GUPTA</p>

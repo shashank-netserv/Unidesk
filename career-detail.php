@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <section class="contact-banner d-flex align-items mt-80">
-  <div class="container" data-aos="fade-up">
+  <div class="container wow animate__animated animate__fadeInUp">
     <h1 class="cinzel fs72 fw400 text-white line-height">Sr. UX Designer</h1>
     <p class="header-location">Delhi, India</p>
   </div>
@@ -9,22 +9,22 @@
 
 <section class="home-about mt100">
     <div class="container">
-        <div class="vision" data-aos="fade-up">
+        <div class="vision">
         <div class="d-flex mb40">
-           <div class="mr-28">
+           <div class="mr-28 wow animate__animated animate__fadeInUp">
              <p class="experience uppercase">Experience</p>
              <p class="years">1-3 years</p>
            </div>
-           <div class="">
+           <div class="wow animate__animated animate__fadeInUp">
              <p class="experience uppercase">Employment time</p>
              <p class="years">1-3 years</p>
            </div>
         </div>
 
  
-        <h3 class="mb-4 cinzel">Responsibilities</h3>
+        <h3 class="mb-4 cinzel wow animate__animated animate__fadeInUp">Responsibilities</h3>
          
-        <ol class="career-description mb-4 mb20">
+        <ol class="career-description mb-4 mb20 wow animate__animated animate__fadeInUp">
           <li class="mb-4">Researching, designing, and prototyping new user experiences based on product requirements.</li>
           <li class="mb-4">Identify user workflows, user and business requirements</li>
           <li class="mb-4">Create, improve and use wireframes/prototypes, style guides, user flows, and effectively communicate your ideas using these methods, in consideration of project constraints</li>
@@ -39,9 +39,9 @@
         </ol>
 
 
-        <h3 class="mb-4 cinzel mt60">Requirements</h3>
+        <h3 class="mb-4 cinzel mt60 wow animate__animated animate__fadeInUp">Requirements</h3>
 
-        <ol class="career-description">
+        <ol class="career-description wow animate__animated animate__fadeInUp">
           <li class="mb-4">3+ years of hands-on work experience creating user flows, wireframes, prototypes, UI Design, etc.</li>
           <li class="mb-4">Passion for taking on complex problems and designing elegant, simple solutions that delight users.</li>
           <li class="mb-4">Ability to communicate design concepts through sketches and wireframes.</li>
@@ -63,10 +63,10 @@
 <section class="digital-divide mt100 bg-black ptb80">
     <div class="container">
       <div class="w690">
-       <h3 class="fs52 cinzel fw400 mb20 text-white pb25" data-aos="fade-up"><span class="text-clr fw500">Apply</span> for this role</h3>
+       <h3 class="fs52 cinzel fw400 mb20 text-white pb25 wow animate__animated animate__fadeInUp"><span class="text-clr fw500">Apply</span> for this role</h3>
         
 
-       <form id="contactForm" data-aos="fade-up">
+       <form id="contactForm wow animate__animated animate__fadeInUp">
 
 
                          <div class="form-group">

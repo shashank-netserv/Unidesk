@@ -1,5 +1,5 @@
 
-<footer class="wow animate__animated animate__bounceInUp">
+<footer class="wow animate__animated animate__fadeInUp">
   <div class="pd100">
 <div class="container">
   <img src="images/logo2.png" class="mobile-logo" width="200px">

@@ -2,7 +2,7 @@
 
 <section class="home-banner d-flex text-center align-items mt-80" id="main">
   <div class="container">
-    <h1 class="cinzel fs72 fw400 text-white line-height wow animate__animated animate__bounceInUp">Enhance Your Student Experience <span class="text-clr fw500">Through AI</span></h1>
+    <h1 class="cinzel fs72 fw400 text-white line-height wow animate__animated animate__fadeInUp">Enhance Your Student Experience <span class="text-clr fw500">Through AI</span></h1>
   </div>
 </section>
 
@@ -30,10 +30,10 @@
 
 <section class="digital-divide mt100 bg-black ptb80">
     <div class="container">
-    <h3 class="fs52 cinzel fw400 mb20 text-white text-center m-left pb25 wow animate__animated animate__bounceInUp">Bridging the <span class="text-clr fw500">Digital Divide </span></h3>
+    <h3 class="fs52 cinzel fw400 mb20 text-white text-center m-left pb25 wow animate__animated animate__fadeInUp">Bridging the <span class="text-clr fw500">Digital Divide </span></h3>
         <div class="row  align-items">
             <div class="col-md-4">
-            <div class="box wow animate__animated animate__bounceInUp">
+            <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/landscape.svg" class="svgimg">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Unifying diverse IT landscapes</p>
@@ -44,7 +44,7 @@
             </div>
          
             <div class="col-md-4">
-           <div class="box wow animate__animated animate__bounceInUp">
+           <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/technology.svg" class="svgimg">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Democratizing access to technology</p>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="col-md-4">
-           <div class="box wow animate__animated animate__bounceInUp">
+           <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/compliance.svg" class="svgimg">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Ensuring data security and compliance</p>
@@ -70,10 +70,10 @@
 
 <section class="digital-divide mt100">
     <div class="container">
-    <h3 class="fs52 cinzel fw400 mb20 text-center pb25 m-left wow animate__animated animate__bounceInUp">Bridging <span class="text-clr fw500"> Knowledge Gaps </span></h3>
+    <h3 class="fs52 cinzel fw400 mb20 text-center pb25 m-left wow animate__animated animate__fadeInUp">Bridging <span class="text-clr fw500"> Knowledge Gaps </span></h3>
         <div class="row  align-items">
             <div class="col-md-6">
-              <div class="box wow animate__animated animate__bounceInUp">
+              <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/educator.svg" class="svgimg">
               <div class="digital-content">
                 <p class="digital-content-heading fs30">Empowering educators</p>
@@ -83,7 +83,7 @@
             </div>
          
          <div class="col-md-6">
-           <div class="box wow animate__animated animate__bounceInUp">
+           <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/student.svg" class="svgimg">
               <div class="digital-content">
                 <p class="digital-content-heading fs30">Enabling student success</p>
@@ -99,11 +99,11 @@
 
 <section class="digital-divide mt100 bg-black ptb80">
     <div class="container">
-    <h3 class="fs52 cinzel fw400 mb20 text-white text-center pb25 m-left wow animate__animated animate__bounceInUp">Bridging the <span class="text-clr fw500">Communication Gap </span></h3>
+    <h3 class="fs52 cinzel fw400 mb20 text-white text-center pb25 m-left wow animate__animated animate__fadeInUp">Bridging the <span class="text-clr fw500">Communication Gap </span></h3>
         <div class="row">
             <div class="col-md-4">
               
-            <div class="box wow animate__animated animate__bounceInUp">
+            <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/streamlining.svg" class="svgimg">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Streamlining communication</p>
@@ -114,7 +114,7 @@
             </div>
          
             <div class="col-md-4">
-           <div class="box wow animate__animated animate__bounceInUp">
+           <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/real-time.svg" class="svgimg">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Providing real-time data insights</p>
@@ -124,7 +124,7 @@
             </div>
 
             <div class="col-md-4">
-           <div class="box wow animate__animated animate__bounceInUp">
+           <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/comunity.svg" class="svgimg">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Building a connected community</p>
@@ -138,8 +138,8 @@
 
 <section class="digital-divide mt100">
     <div class="container">
-    <h3 class="fs52 cinzel fw400 mb40 text-center pb25 wow animate__animated animate__bounceInUp">Client <span class="text-clr fw500"> Testimonials </span></h3>
-     <div class="swiper mySwiper wow animate__animated animate__bounceInUp">
+    <h3 class="fs52 cinzel fw400 mb40 text-center pb25 wow animate__animated animate__fadeInUp">Client <span class="text-clr fw500"> Testimonials </span></h3>
+     <div class="swiper mySwiper wow animate__animated animate__fadeInUp">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div class="testimonial-box">
@@ -180,12 +180,12 @@
 
 <section class="digital-divide mt100 bg-black ptb80">
     <div class="container">
-    <h3 class="fs52 cinzel fw400 mb20 text-white text-center pb25 wow animate__animated animate__bounceInUp">Blogs</h3>
+    <h3 class="fs52 cinzel fw400 mb20 text-white text-center pb25 wow animate__animated animate__fadeInUp">Blogs</h3>
         <div class="row justify-content-center">
             <div class="col-md-5">
             
             <a href="#" class="text-decoration"> 
-            <div class="box wow animate__animated animate__bounceInUp">
+            <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/blog1.png" class="img-responsive height255 object-fit">
               
               <div class="digital-content text-white">
@@ -197,7 +197,7 @@
             </div>
          
             <div class="col-md-5">
-             <div class="box wow animate__animated animate__bounceInUp">
+             <div class="box wow animate__animated animate__fadeInUp">
               <img src="images/blog2.png" class="img-responsive height255 object-fit">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Exploring the Frontier: Generative AI in Higher Education</p>
@@ -207,34 +207,34 @@
             </div>
           </div>
 
-            <a href="blog.php" class="headerbutton text-center cta mr-block wow animate__animated animate__bounceInUp">VIEW ALL</a>
+            <a href="blog.php" class="headerbutton text-center cta mr-block wow animate__animated animate__fadeInUp">VIEW ALL</a>
    
     </div>
 </section>
 
 <section class="digital-divide mt100 mb40">
     <div class="container">
-    <h3 class="fs52 cinzel fw400 mb20 text-black text-center pb25 wow animate__animated animate__bounceInUp">Video</h3>
+    <h3 class="fs52 cinzel fw400 mb20 text-black text-center pb25 wow animate__animated animate__fadeInUp">Video</h3>
         <div class="row  align-items">
            <div class="col-md-4">
-              <div class="box wow animate__animated animate__bounceInUp">
+              <div class="box wow animate__animated animate__fadeInUp">
                <iframe width="100%" height="315" src="https://www.youtube.com/embed/3837JX2SlME?si=-J_sGQqVHKxCHQqn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                </div>
             </div>
          
             <div class="col-md-4">
-              <div class="box wow animate__animated animate__bounceInUp">
+              <div class="box wow animate__animated animate__fadeInUp">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/3837JX2SlME?si=-J_sGQqVHKxCHQqn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                </div>
             </div>
 
              <div class="col-md-4">
-               <div class="box wow animate__animated animate__bounceInUp">
+               <div class="box wow animate__animated animate__fadeInUp">
                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/3837JX2SlME?si=-J_sGQqVHKxCHQqn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                </div>
             </div>
 
-            <a href="" class="headerbutton text-center cta wow animate__animated animate__bounceInUp">VIEW ALL</a>
+            <a href="" class="headerbutton text-center cta wow animate__animated animate__fadeInUp">VIEW ALL</a>
         </div>
     </div>
 </section>
