@@ -1,5 +1,5 @@
 
-<?php include('header2.php'); ?>
+<?php include('header.php'); ?>
 
 <section class="home-banner d-flex text-center align-items mt-80 h300">
   <div class="container" data-aos="fade-up">

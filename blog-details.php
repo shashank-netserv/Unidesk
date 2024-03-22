@@ -1,4 +1,4 @@
-<?php include('header2.php');?>
+<?php include('header.php');?>
 
 
 <section class="mt100 contact-page">

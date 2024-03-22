@@ -1,4 +1,4 @@
-<?php include('header2.php'); ?>
+<?php include('header.php'); ?>
 
 <section class="contact-banner d-flex text-center align-items mt-80">
   <div class="container" data-aos="fade-up">
@@ -8,7 +8,7 @@
 
 
 
-<section class="mt1000 contact-page" style="margin-top:80px;">
+<section class="mb40 contact-page" style="margin-top:80px;">
 <div class="container vision">
   <div class="contact-page1">
       <div class="row">

@@ -1,4 +1,4 @@
-<?php include('header2.php'); ?>
+<?php include('header.php'); ?>
 
 <section class="contact-banner d-flex text-center align-items mt-80">
   <div class="container" data-aos="fade-up">

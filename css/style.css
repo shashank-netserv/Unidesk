@@ -407,6 +407,12 @@ font-family: "League Spartan", sans-serif;
 .w-100{
   width:100%;
 }
+.mobile-d-block{
+  display:none;
+}
+.desktop-d-block{
+  display: block;
+}
 .closebtn{display:none;}
 @media only screen and (min-width: 320px) and (max-width: 768px){
   html{
@@ -595,5 +601,15 @@ footer{
 }
 .mb-p{
   padding:0 15px;
+}
+.mobile-d-block{
+  display:block;
+}
+.desktop-d-block{
+  display: none;
+}
+.career-description {
+  font-size: 14px;
+  font-family: "League Spartan", sans-serif;
 }
 }

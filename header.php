@@ -5,66 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unidesk</title>
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+nav .d-flex{
+display:block !important;
+}
+
+}
+</style>
 </head>
 <body>
 
-<!-- Navbar 1 - Bootstrap Brain Component -->
-<nav class="navbar navbar-expand-md bsb-navbar bsb-navbar-hover bsb-navbar-caret fixed">
+<nav class="navbar navbar-expand-lg fixed">
   <div class="container">
-    <a class="navbar-brand" href="index.php">
-      <img src="images/unidesklogo.png" width="200px" alt="Unidesk Logo">
+  <a class="navbar-brand" href="index.php">
+      <img src="images/logo2.png" width="200px" alt="Unidesk Logo">
     </a>
-    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-      </svg>
+    <button class="navbar-toggler" onclick="openNav()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav flex-grow-1 justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#!">Product</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#!" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-            <ul class="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="accountDropdown">
-              <li><a class="dropdown-item" href="#!">Log in</a></li>
-              <li><a class="dropdown-item" href="#!">Lost Password?</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#!">Sign up</a></li>
-            </ul>
-          </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Partners</a>
-          </li>
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
 
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php">About Us</a>
-          </li>
-        </ul>
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <ul class="navbar-nav flex-grow-1 justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Solutions</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="about.php">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.php">Resources</a>
+        </li>
 
-        <div class="d-flex align-items">
-            <a href="contact.php" class="headerbutton">Contact Us <span><img src="images/contacticon.png" /></span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="career.php">Career</a>
+        </li>
+
+
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="career.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Career
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="about.php">About</a></li>
+            <li><a class="dropdown-item" href="career.php">Career</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+      </ul>
+      <div class="d-flex align-items mb-p">
+            <a href="contact.php" class="headerbutton mobile-d-block">Contact Us <span><img src="images/contacticon.png" /></span></a>
         </div>
-
-      </div>
+      
     </div>
+    <div class="d-flex align-items mb-p">
+            <a href="contact.php" class="headerbutton desktop-d-block">Contact Us <span><img src="images/contacticon.png" /></span></a>
+        </div>
   </div>
 </nav>
 
 
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
