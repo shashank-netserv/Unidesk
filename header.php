@@ -31,7 +31,7 @@
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 10px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -55,6 +55,16 @@
 }
 nav .d-flex{
 display:block !important;
+}
+.headerbutton{
+  font-size: 18px !important;
+  color:#fff !important;
+  width: 146px;
+}
+.headerbutton img{
+  width: 18px;
+    height: 18px;
+    margin-top: -4px;
 }
 }
 </style>
@@ -105,7 +115,7 @@ display:block !important;
         </div>
       
     </div>
-    <div class="d-flex align-items mb-p">
+        <div class="d-flex align-items mb-p">
             <a href="contact.php" class="headerbutton desktop-d-block">Contact Us <span><img src="images/contacticon.png" /></span></a>
         </div>
   </div>
@@ -115,11 +125,8 @@ display:block !important;
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
 }
-
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
 }
 </script>

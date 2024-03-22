@@ -12,7 +12,7 @@
         <div class="row align-items">
 
             <div class="col-md-7">
-                <div class="ml">
+                <div class="ml mb20">
                 <p class="fs24 fw300 wow animate__animated animate__slideInLeft ">
                     In today’s technology-driven world, education faces a crucial challenge:   
                     bridging the gap between traditional pedagogy and the digital future.    

@@ -612,6 +612,13 @@ footer{
   font-size: 14px;
   font-family: "League Spartan", sans-serif;
 }
+.navbar-toggler{
+  position: absolute;
+    right: 26px;
+}
+.mission .box {
+  margin-bottom: 20px;
+}
 }
 
 .about_part1{
