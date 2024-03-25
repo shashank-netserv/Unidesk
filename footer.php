@@ -1,6 +1,12 @@
 
+
+<div class="flot_whatssap">
+<a href="https://wa.me/918652076090" target="_blank"><img src="images/whatsapp.png" width="50px;"></a>
+</div>
+
+
 <footer class="wow animate__animated animate__fadeInUp">
-  <div class="pd100">
+<div class="pd100">
 <div class="container">
   <img src="images/logo2.png" class="mobile-logo" width="200px">
   <div class="row mt60">
@@ -32,21 +38,21 @@
     <div class="col-md-7">
     <div class="row mt50">
         <div class="col-md-4 col-sm-6">
-         <h4 class="mb40">COMPANY</h4>
+         <h4 class="mb40 clr">COMPANY</h4>
         <ul>
-            <li class="mb15"><a href="" class="text-decoration text-black fs22">Product</a></li>
-            <li class="mb15"><a href="" class="text-decoration text-black fs22">Services</a></li>
-            <li class="mb15"><a href="" class="text-decoration text-black fs22">Partners</a></li>
+            <li class="mb15"><a href="solutions.php" class="text-decoration text-black fs22">Solutions</a></li>
+            <li class="mb15"><a href="career.php" class="text-decoration text-black fs22">Career</a></li>
+            <!-- <li class="mb15"><a href="" class="text-decoration text-black fs22">Partners</a></li> -->
         </ul>
         </div>
 
 
         <div class="col-md-4 col-sm-6 mmt-80">
-         <h4 class="mb40">CONNECT</h4>
+         <h4 class="mb40 clr">CONNECT</h4>
         <ul>
-            <li class="mb15"><a href="" class="text-decoration text-black fs22">About Us</a></li>
-            <li class="mb15"><a href="" class="text-decoration text-black fs22">Resources</a></li>
-            <li class="mb15"><a href="" class="text-decoration text-black fs22">Contact Us</a></li>
+            <li class="mb15"><a href="about.php" class="text-decoration text-black fs22">About Us</a></li>
+            <li class="mb15"><a href="blog.php" class="text-decoration text-black fs22">Resources</a></li>
+            <li class="mb15"><a href="contact.php" class="text-decoration text-black fs22">Contact Us</a></li>
         </ul>
         </div>
 
@@ -64,7 +70,7 @@
 </div>
 <hr>
 <div class="container">
-    <div class="last-footer d-flex space-between mb15 d-block">
+    <div class="last-footer d-flex space-between pb15 d-block">
         <p class="mb12">© 2024.All logos and trademarks are properties of their respective owners.</p>
 
         <p>Terms & Conditions | Privacy Policy</p>

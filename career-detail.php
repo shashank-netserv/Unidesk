@@ -2,6 +2,7 @@
 
 <section class="contact-banner d-flex align-items mt-80">
   <div class="container wow animate__animated animate__fadeInUp">
+    <div class="vision">
     <h1 class="cinzel fs72 fw400 text-white line-height">Sr. UX Designer</h1>
     <p class="header-location">Delhi, India</p>
   </div>

@@ -31,6 +31,14 @@ p{
     height: 38px;
     text-decoration: none;
 }
+.navbar-toggler{
+  border: none !important;
+}
+.navbar-toggler:focus{
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
 .w690{
   width:690px;
   margin:0 auto;
@@ -52,7 +60,9 @@ width:100%;
     font-size:20px;
     color:#000000;
 }
-
+.header-logo{
+  width:200px;
+}
 .navbar-nav .nav-item{
     padding:0 15px;
 }
@@ -67,7 +77,15 @@ width:100%;
     background-size: cover;
     position: relative;
 }
-
+.solution-banner{
+  background-image: url("../images/solution-banner.jpg");
+  height:700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
 .contact-banner{
   background-image: url("../images/contact.png");
   height:450px;
@@ -76,11 +94,23 @@ width:100%;
   background-size: cover;
   position: relative;
 }
+.about-banner{
+  background-image: url("../images/aboutbanner.jpg");
+  height:600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .cinzel{
 font-family: "Cinzel", serif;;
 }
 .fs72{
     font-size: 60px;
+}
+.fs50{
+  font-size: 50px;
 }
 .fw400{
     font-weight: 400;
@@ -145,7 +175,9 @@ margin-top:20px;
     font-weight: 300;
 }
 
-
+.pb15{
+  padding-bottom: 15px;
+}
 
 /* Swipper Slider CSS Code :start */
 .swiper {
@@ -264,7 +296,7 @@ margin-top:20px;
     height:380px;
   }
   .bg-ccc{
-    background-color:#CCCCCC
+    background-color:#cccccc1a
   }
   .clr666{
     color: #666666;
@@ -412,6 +444,12 @@ font-family: "League Spartan", sans-serif;
 }
 .desktop-d-block{
   display: block;
+}
+
+.flot_whatssap{
+  position: fixed;
+  bottom: 60px;
+  right: 0px;
 }
 .closebtn{display:none;}
 @media only screen and (min-width: 320px) and (max-width: 768px){
@@ -618,6 +656,24 @@ footer{
 }
 .mission .box {
   margin-bottom: 20px;
+}
+.header-logo{
+  width:167px;
+}
+.clr{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mission .box {
+  height: 275px;
+}
+.width50{width: 50px;}
+.svgimg {
+  width: 50px;
+  height: 50px;
+}
+.fs50 {
+  font-size: 30px;
 }
 }
 

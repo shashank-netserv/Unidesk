@@ -35,7 +35,7 @@
             <div class="col-md-4">
               
             <div class="box wow animate__animated animate__fadeInUp">
-              <img src="images/dummyicon.png">
+              <img src="images/dummyicon.png" class="width50">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Collaborate. Learn. Scale.</p>
                 <p class="fs20 fw300">Lorem ipsum dolor sit amet consectetur. In vestibulum diam felis ut eu fringilla fusce. Enim vitae ornare gravida facilisis mollis. </p>
@@ -46,7 +46,7 @@
          
             <div class="col-md-4">
            <div class="box wow animate__animated animate__fadeInUp">
-              <img src="images/dummyicon.png">
+              <img src="images/dummyicon.png" class="width50">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Upskill</p>
                 <p class="fs20 fw300">Lorem ipsum dolor sit amet consectetur. In vestibulum diam felis ut eu fringilla fusce. Enim vitae ornare gravida facilisis mollis. </p>
@@ -56,7 +56,7 @@
 
             <div class="col-md-4">
            <div class="box wow animate__animated animate__fadeInUp">
-              <img src="images/dummyicon.png">
+              <img src="images/dummyicon.png" class="width50">
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Meaningful Roles and Work</p>
                 <p class="fs20 fw300">Lorem ipsum dolor sit amet consectetur. In vestibulum diam felis ut eu fringilla fusce. Enim vitae ornare gravida facilisis mollis. </p>

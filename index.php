@@ -140,7 +140,7 @@
     <div class="container">
     <h3 class="fs52 cinzel fw400 mb40 text-center pb25 wow animate__animated animate__fadeInUp">Client <span class="text-clr fw500"> Testimonials </span></h3>
      <div class="swiper mySwiper wow animate__animated animate__fadeInUp">
-      <div class="swiper-wrapper">
+      <!-- <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div class="testimonial-box">
                 <img src="images/client1.png">
@@ -171,7 +171,7 @@
         </div>
       
      </div>
-     <div class="swiper-pagination"></div>
+     <div class="swiper-pagination"></div> -->
     </div>
 
     
@@ -182,28 +182,42 @@
     <div class="container">
     <h3 class="fs52 cinzel fw400 mb20 text-white text-center pb25 wow animate__animated animate__fadeInUp">Blogs</h3>
         <div class="row justify-content-center">
-            <div class="col-md-5">
-            
-            <a href="#" class="text-decoration"> 
+            <div class="col-md-4">
+            <a href="exploring-the-frontier.php" class="text-decoration">
+             <div class="box wow animate__animated animate__fadeInUp">
+              <img src="images/exploring-the-fortune.jpg" class="img-responsive height255 object-fit">
+              <div class="digital-content text-white">
+                <p class="digital-content-heading fs30">Exploring the Frontier: Generative AI in Higher Education</p>
+                <!-- <p class="fs20 fw300">In recent years, integrating artificial intelligence (AI) technologies has transformed various industries, and higher education is no exception....</p> -->
+              </div>
+            </div>
+</a>
+            </div>
+
+            <div class="col-md-4">
+            <a href="chatboat-and-voiceboat.php" class="text-decoration"> 
             <div class="box wow animate__animated animate__fadeInUp">
-              <img src="images/blog1.png" class="img-responsive height255 object-fit">
+              <img src="images/revolutionizing-higher-education.jpg" class="img-responsive height255 object-fit">
               
               <div class="digital-content text-white">
                 <p class="digital-content-heading fs30">Revolutionizing Higher Education Support with Generative AI Chatbots and Voicebots</p>
-                <p class="fs20 fw300">In the rapidly evolving landscape of higher education, institutions constantly seek innovative solutions to enhance support services and improve student experience... </p>
+                <!-- <p class="fs20 fw300">In the rapidly evolving landscape of higher education, institutions constantly seek innovative solutions to enhance support services and improve student experience... </p> -->
               </div>
             </div>
             </a>
             </div>
-         
-            <div class="col-md-5">
+
+           
+            <div class="col-md-4">
+            <a href="revolutionizing-student-service.php" class="text-decoration">
              <div class="box wow animate__animated animate__fadeInUp">
-              <img src="images/blog2.png" class="img-responsive height255 object-fit">
+              <img src="images/revolutionizing-student-service.jpg" class="img-responsive height255 object-fit">
               <div class="digital-content text-white">
-                <p class="digital-content-heading fs30">Exploring the Frontier: Generative AI in Higher Education</p>
-                <p class="fs20 fw300">In recent years, integrating artificial intelligence (AI) technologies has transformed various industries, and higher education is no exception....</p>
+                <p class="digital-content-heading fs30">Revolutionizing Student Service Support in Higher Education: Catering IT and Non-IT</p>
+                <!-- <p class="fs20 fw300">In recent years, integrating artificial intelligence (AI) technologies has transformed various industries, and higher education is no exception....</p> -->
               </div>
             </div>
+</a>
             </div>
           </div>
 
@@ -234,7 +248,7 @@
                </div>
             </div>
 
-            <a href="" class="headerbutton text-center cta wow animate__animated animate__fadeInUp">VIEW ALL</a>
+            <a href="videos.php" class="headerbutton text-center cta wow animate__animated animate__fadeInUp">VIEW ALL</a>
         </div>
     </div>
 </section>

@@ -74,7 +74,7 @@ display:block !important;
 <nav class="navbar navbar-expand-lg fixed">
   <div class="container">
   <a class="navbar-brand" href="index.php">
-      <img src="images/logo2.png" width="200px" alt="Unidesk Logo">
+      <img src="images/logo2.png" alt="Unidesk Logo" class="header-logo">
     </a>
     <button class="navbar-toggler" onclick="openNav()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -86,7 +86,7 @@ display:block !important;
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <ul class="navbar-nav flex-grow-1 justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Solutions</a>
+          <a class="nav-link active" aria-current="page" href="solutions.php">Solutions</a>
         </li>
         
         <li class="nav-item">
@@ -96,9 +96,9 @@ display:block !important;
           <a class="nav-link" href="blog.php">Resources</a>
         </li>
 
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="career.php">Career</a>
-        </li>
+        </li> -->
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="career.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Career
