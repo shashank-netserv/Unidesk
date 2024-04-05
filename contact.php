@@ -21,7 +21,7 @@
               <li class="cinzel clr333 fs24">
                 <i class="fa fa-map-marker" aria-hidden="true"></i> Address
                 <div class="left-text">
-                 <span class="fs18">Floor 2, Wing-B, Supreme Business Park, Hiranandani Gardens, Powai, Mumbai 400 076.</span>
+                 <span class="fs18">41 D Pocket A Sukhdev Vihar New Delhi - 110025</span>
                   </div>
               </li>
             <hr>
@@ -29,7 +29,7 @@
               <li class="cinzel clr333 fs24">
              <i class="fa fa-volume-control-phone" aria-hidden="true"></i> Phone
                 <div class="left-text">
-                 <span><a href="tel:+91 223937 9999" class="text-decoration text-black fs18">+91 223937 9999</a></span>
+                 <span><a href="tel:+91 9810492669" class="text-decoration text-black fs18">+91 9810 492 669</a></span>
                </div>
               </li>
              <hr> 
@@ -37,7 +37,7 @@
                <li class="cinzel clr333 fs24">
                 <i class="fa fa-envelope-open-o" aria-hidden="true"></i> Email
                 <div class="left-text">
-                 <span><a href="mailto:robin@unideskpartners.com" class="text-decoration text-black fs18">robin@unideskpartners.com</a></span>
+                 <span><a href="mailto:contactus@unideskpartners.com" class="text-decoration text-black fs18">contactus@unideskpartners.com</a></span>
                 </div>
               </li> 
             </ul>
@@ -74,15 +74,16 @@
 
                             <div class="form-group">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                <div class="col-md-6">
+                                        <input type="text" name="designation" class="form-control" placeholder="Designation*" required>
+                                    </div>
+                                    <div class="col-md-6">
                                         <select name="services">
                                             <option value="" >Service you are interested in*</option>
-                                            <option value="Mergers & Acquisitions Advisory">Mergers & Acquisitions Advisory</option>
-                                            <option value="Corporate Finance Advisory">Corporate Finance Advisory</option>
-                                            <option value="Transformation & Restructuring Advisory">Transformation & Restructuring Advisory</option>
-                                            <option value="Interim & Crisis Management">Interim & Crisis Management</option>
-                                            <option value="Corporate Governance Initiatives">Corporate Governance Initiatives</option>
-                                            <option value="Industry and Market Research">Industry and Market Research</option>
+                                            <option value="Intuitive Integration">Intuitive Integration</option>
+                                            <option value="Conversational Generative AI">Conversational Generative AI</option>
+                                            <option value="Natural Language Processing (NLP)">Natural Language Processing (NLP)</option>
+                                            <option value="24/7 Support">24/7 Support</option>
                                         </select>
                                     </div>
                                 </div>
@@ -91,11 +92,11 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <textarea row="5" name="message" class="form-control" placeholder="Type a message*" required></textarea>
+                                        <textarea name="message" class="form-control" placeholder="Type a message*" rows="3" required></textarea>
                                     </div>
                                 </div>
                              
-                               <button type="submit" class="cta headerbutton bnone" id="load2" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Loading...">Submit <span><img src="images/contacticon.png" /></span></button>
+                               <button type="submit" class="cta headerbutton bnone" name="submit">Submit </button>
                             </div>
                         </form>
                     </div>
@@ -104,4 +105,24 @@
 </section>
 
 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src = "https://ajax.aspnetCDN.com/ajax/jQuery/jQuery-1.9.0.min.js"></script>
+<script> 
+$('#contactForm').on('submit', function(e){
+    e.preventDefault(); 
+    var data = new FormData(this); 
+    $.ajax({ 
+        type:"POST", 
+        url:"email.php", 
+        data:data,
+        contentType:false,
+        cache:false,
+        processData:false,
+        success:function(response){ console.log(response); 
+        swal({text:'Thank you for contacting us. One of our team members will contact you shortly.',
+        icon: "success", button: "Ok!" });
+        window.setTimeout(function(){
+    location.reload() },3000) }
+    }) }) 
+</script>
 <?php include('footer.php'); ?>

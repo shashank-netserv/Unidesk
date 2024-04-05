@@ -1,7 +1,7 @@
 
 
 <div class="flot_whatssap">
-<a href="https://wa.me/918652076090" target="_blank"><img src="images/whatsapp.png" width="50px;"></a>
+<a href="https://wa.me/91 9810 492 669" target="_blank"><img src="images/whatsapp.png" width="50px;"></a>
 </div>
 
 
@@ -17,8 +17,7 @@
             </div>
             <div class="ml-15">
             <h4>Address</h4>
-            <p class="fs18">Level 14, Boulevard Plaza Tower 1,<br />
-                 Sheikh Mohammed Bin Rashid Boulevard</p>
+            <p class="fs18">41 D Pocket A Sukhdev Vihar <br /> New Delhi - 110025</p>
             </div>
             </div>
          <div class="d-flex">
@@ -27,8 +26,8 @@
             </div>
             <div class="ml-15">
             <h4>Phone</h4>
-            <p class="text-black fs18"><a href="" class="text-decoration text-black fs18">T: +971 4 424 5149</a> | 
-            <a href="" class="text-decoration text-black fs18">F: +971 4 455 8556</a></p>
+            <p class="text-black fs18"><a href="tel:+91 9810 492 669" class="text-decoration text-black fs18">T: +91 9810 492 669</a>  
+            </p>
             </div>
             
         </div>

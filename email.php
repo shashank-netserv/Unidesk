@@ -11,27 +11,38 @@ require 'vendor/autoload.php';
  session_start();
 
 
-$name='';
+$fname='';
 $email='';
-$mobile='';
-// $subject='';
+$cname='';
+$number='';
+$designation='';
+$services='';
 $message='';
 
 /* Get variables from post form data */
-if(isset($_POST['name'])){
-$name=$_POST['name'];
+if(isset($_POST['fname'])){
+$fname=$_POST['fname'];
 }
 
 if(isset($_POST['email'])){
 $email=$_POST['email'];
 }
 
-if(isset($_POST['mobile'])){
-$mobile=$_POST['mobile'];
+if(isset($_POST['cname'])){
+    $cname=$_POST['cname'];
+    }
+
+if(isset($_POST['number'])){
+$number=$_POST['number'];
 }
-// if(isset($_POST['subject'])){
-// $subject=$_POST['subject'];
-// }
+
+if(isset($_POST['designation'])){
+    $designation=$_POST['designation'];
+    }
+
+if(isset($_POST['services'])){
+$services=$_POST['services'];
+}
 
 
 if( @$_POST['message'] !==""){
@@ -42,9 +53,12 @@ $message= @$_POST['message'];
 /*message construction*/
 /* Your Custom Text : Variable recieved*/
 $message="<html><body>
-<p>Name : $name</p>
-<p>Contact Number : $mobile</p>
+<p>Name : $fname</p>
+<p>Company Name : $cname</p>
+<p>Contact Number : $number</p>
 <p>Email : $email</p>
+<p>Designation : $designation</p>
+<p>Services : $services</p>
 <p>Message : $message</p>
 <body></html>";
 $mail = new PHPMailer(true);
@@ -52,33 +66,33 @@ $mail2 = new PHPMailer(true);
 try {
     $mail->SMTPDebug = 0;               // Enable verbose debug output
     $mail->isSMTP();                     // Send using SMTP
-    $mail->Host='ssl://smtpout.secureserver.net';   // Set the SMTP server to send through
+    $mail->Host='p3plzcpnl504463.prod.phx3.secureserver.net';   //ssl://smtpout.secureserver.net Set the SMTP server to send through
     $mail->SMTPAuth= true;      // Enable SMTP authentication
-    $mail->Username='info@rashmicreations.com';   // SMTP username
-    $mail->Password='Veda@567234';     // SMTP password
+    $mail->Username='test@unideskpartners.com';   // SMTP username
+    $mail->Password='Welcome@2024';     // SMTP password
     $mail->SMTPSecure = "";    // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port= 465;  // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
     //Recipients
-    $mail->setFrom('info@rashmicreations.com', $name);
-    $mail->addAddress('info@rashmicreations.com', $name);   
-    $mail->addCC('shashank8652@gmail.com', $name);
+    $mail->setFrom('test@unideskpartners.com', $fname);
+    $mail->addAddress('test@unideskpartners.com', $fname);   
+    $mail->addCC('shashank8652@gmail.com', $fname);
     $mail->isHTML(true);
-    $mail->Subject = $name. 'From shashank singh';
+    $mail->Subject = $fname. 'From shashank singh';
     $mail->Body    = $message;
     $mail->send(); 
     $mail2->SMTPDebug = 0;               // Enable verbose debug output
     $mail2->isSMTP();                     // Send using SMTP
-    $mail2->Host='ssl://smtpout.secureserver.net';   // Set the SMTP server to send through
+    $mail2->Host='p3plzcpnl504463.prod.phx3.secureserver.net';   //ssl://smtpout.secureserver.net Set the SMTP server to send through
     $mail2->SMTPAuth= true;      // Enable SMTP authentication
-    $mail2->Username='info@rashmicreations.com';   // SMTP username
-    $mail2->Password='Veda@567234';     // SMTP password
+    $mail2->Username='test@unideskpartners.com';   // SMTP username
+    $mail2->Password='Welcome@2024';     // SMTP password
     $mail2->SMTPSecure = "";    // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail2->Port= 465;  // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
     //Recipients
-    $mail2->setFrom('info@rashmicreations.com', $name);
-    $mail2->addAddress($email, $name);
+    $mail2->setFrom('test@unideskpartners.com', $fname);
+    $mail2->addAddress($email, $fname);
     $mail2->isHTML(true);
-    $mail2->Subject = $name. 'Thank you for Message';
+    $mail2->Subject = $fname. 'Thank you for Message';
     $mail2->Body    = 'This is for Sender Mail';
     $mail2->send(); 
 
