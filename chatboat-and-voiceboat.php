@@ -46,7 +46,7 @@ efficient.</li>
 
       
 
-      <p class="mt-3 fs18">As technology advances, the capabilities of generative AI chatbots and voicebots are expected to
+<p class="mt-3 fs18">As technology advances, the capabilities of generative AI chatbots and voicebots are expected to
 become increasingly sophisticated. These technologies can potentially revolutionize higher
 education support services, transforming how students learn, faculty teach, and institutions
 operate. By embracing generative AI chatbots and voicebots, higher education institutions can

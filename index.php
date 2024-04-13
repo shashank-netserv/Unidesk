@@ -217,7 +217,7 @@
                 <!-- <p class="fs20 fw300">In recent years, integrating artificial intelligence (AI) technologies has transformed various industries, and higher education is no exception....</p> -->
               </div>
             </div>
-</a>
+            </a>
             </div>
           </div>
 

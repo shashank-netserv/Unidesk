@@ -7,7 +7,7 @@
 </section>
 
 
-<section class="home-about mt100">
+<section class="home-about pb80 mt100">
     <div class="container">
         <div class="row  align-items">
             <div class="col-md-5">
@@ -17,18 +17,40 @@
              <div class="col-md-7">
                 <div class="ml wow animate__animated animate__fadeInRight">
                 
-                <p class="fs24 fw300">Welcome to the forefront of campus innovation! Our suite of conversational AI solutions,
+                <p class="fs24 fw300 mb40">Welcome to the forefront of campus innovation! Our suite of conversational AI solutions,
                   featuring UD Chatbot and Voicebot, is designed to revolutionize how campuses interact with
-                  students and staff. Seamlessly integrating with any campus application, our cutting-edge
-                  technology leverages generative AI and natural language processing to deliver unparalleled
-                  support and engagement.</p>
+                  students and staff. </p>
+
+                  <a href="contact.php" class="headerbutton text-center cta wow animate__animated animate__fadeInUp">Request a Demo</a>
                </div>
              </div>
         </div>
     </div>
 </section>
 
-<section class="digital-divide mt100 bg-black ptb80">
+
+<section class="ptb80" style="background: #FEFCF8;">
+    <div class="container">
+        <div class="row  align-items">
+
+         
+             <div class="col-md-7">
+                <div class="ml wow animate__animated animate__fadeInLeft">
+                
+                <p class="fs24 fw300">Seamlessly integrating with any campus application, our cutting-edge
+                  technology leverages generative AI and natural language processing to deliver unparalleled
+                  support and engagement.</p>
+               </div>
+             </div>
+
+             <div class="col-md-5">
+                <img src="images/chatboat.jpg" class="img-responsive wow animate__animated animate__slideInRight" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="digital-divide bg-black ptb80">
     <div class="container">
     <h3 class="fs52 cinzel fw400 mb20 text-white text-center m-left pb25 wow animate__animated animate__fadeInUp">UD Chatbot and Voicebot Features </span></h3>
         <div class="row  align-items">

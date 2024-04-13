@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unidesk</title>
+    <meta name="description" content="Unidesk deploys AI-driven technology at your campus to improve help desk support operational inefficiencies while reducing institutional costs. Learn how we are assisting our clients in delivering seamless support services to their end-users while achieving their institutional goals. Read to know more.">
+  <meta name="keywords" content="Help Desk Support, Help Desk Services, One Stop Solution, Student Support, AI Chatbot,LMS Help Desk, LMS Help Desk Support, LMS Support Services, LMS Support, LMS Support Outsourcing, Blackboard, Canvas, Jenzabar, Ellucian, Moodle,Student Chatbot, Education Chatbot, Higher Ed Chatbot, chatbot for higher education, higher education chatbot, chatbots in higher education, higher ed chatbot, chatbot for higher education,ai chatbot for higher education, ai chatbots for education.">
+  <meta name="title" content="Unidesk | AI & Predictive Analytics Customer Service Platform">
+    <title>Unidesk | AI & Predictive Analytics Customer Service Platform</title>
+    
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -90,36 +94,43 @@ display:block !important;
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="about.php">About</a>
+          <a class="nav-link" href="about.php">About Us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.php">Resources</a>
-        </li>
-
         <!-- <li class="nav-item">
-          <a class="nav-link" href="career.php">Career</a>
+          <a class="nav-link" href="blog.php">Resources</a>
         </li> -->
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="career.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Career
+
+  
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Resources
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="about.php">About</a></li>
-            <li><a class="dropdown-item" href="career.php">Career</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="blog.php">Blog</a></li>
+            <li><a class="dropdown-item" href="videos.php">Video</a></li>
           </ul>
-        </li> -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact Us</a>
+        </li>
       </ul>
+
+     
+
       <div class="d-flex align-items mb-p">
-            <a href="contact.php" class="headerbutton mobile-d-block">Contact Us <span><img src="images/contacticon.png" /></span></a>
+            <a href="contact.php" class="headerbutton mobile-d-block">Request A Demo</a>
         </div>
       
     </div>
         <div class="d-flex align-items mb-p">
-            <a href="contact.php" class="headerbutton desktop-d-block">Contact Us <span><img src="images/contacticon.png" /></span></a>
+            <a href="contact.php" class="headerbutton desktop-d-block">Request A Demo</a>
         </div>
   </div>
 </nav>
+
+
+<!--<p>Contact Unidesk for after-hours, weekends, holidays, and 24x7 IT help desk support services-->
+<!--for general IT, LMS, ERP/SIS quickly via phone, email, live chat, and chatbot.</p>-->
 
 
 <script>

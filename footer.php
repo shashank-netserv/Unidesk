@@ -41,7 +41,7 @@
         <ul>
             <li class="mb15"><a href="solutions.php" class="text-decoration text-black fs22">Solutions</a></li>
             <li class="mb15"><a href="career.php" class="text-decoration text-black fs22">Career</a></li>
-            <!-- <li class="mb15"><a href="" class="text-decoration text-black fs22">Partners</a></li> -->
+            <li class="mb15"><a href="contact.php" class="text-decoration text-black fs22">Request A Demo</a></li>
         </ul>
         </div>
 
